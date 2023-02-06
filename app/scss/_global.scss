@@ -1,0 +1,26 @@
+html, body{
+  height: 100%;
+}
+body{
+  // display: flex;
+  // flex-direction: column;
+  @extend %rubik-400;
+}
+main{
+
+  flex-grow: 1;
+}
+
+.wrapper{
+  max-width: 1750px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.conteiner{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+
