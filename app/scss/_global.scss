@@ -2,8 +2,8 @@ html, body{
   height: 100%;
 }
 body{
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-direction: column;
   @extend %rubik-400;
 }
 main{
@@ -13,6 +13,7 @@ main{
 
 .wrapper{
   max-width: 1750px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 10px;
 }
