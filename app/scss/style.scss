@@ -6,11 +6,27 @@
 
 
 .header {
+  min-width: 100%;
+  position: fixed;
+  z-index: 40;
+    height: 140px;
+    background-color: #fff;
+
   &__inner {
     padding: 50px 0 45px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    max-width: 1770px;
+    top: 0;
+    z-index: 50;
+    height: 140px;
+    background-color: #fff;
+    flex-wrap: wrap;
+
   }
 
   &__menu-item {
@@ -30,6 +46,7 @@
 
 .user-nuv {
   display: flex;
+  flex-wrap: wrap;
   height: 51px;
 
   &__search {
@@ -289,6 +306,7 @@
     background-position: center center;
     width: 1770px;
     height: 820px;
+    margin-top: 145px;
 
   }
 

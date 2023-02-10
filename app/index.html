@@ -6,17 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.min.css">
-  <title>Document</title>
+  <title>Glee</title>
 </head>
 
 <body>
 
-  <head class="header">
+  <header class="header">
     <div class="wrapper">
       <div class="header__inner">
         <a class="header__logo" href="index.html">
           <img src="images/logo.svg" alt="image logo">
         </a>
+        <div class="header__burger">
+          <span></span>
+        </div>
         <nav class="header__menu">
           <ul class="header__menu-item">
             <li class="header__menu-list">
@@ -51,24 +54,24 @@
               <img class="user-nuv__link-img" src="images/icon/heart.svg" alt="heart img">
               <span class="user-nuv__num"> 0</span>
             </a>
-            <img src="images/icon/vertical-line.svg" alt="">
+            <img class="user-nuv__img-line" src="images/icon/vertical-line.svg" alt="">
             <a class="user-nuv__link-cart" href="#">
               <img class="user-nuv__link-img" src="images/icon/cart.svg" alt="cart img">
               <span class="user-nuv__num"> 0</span>
             </a>
           </div>
-          <a class="user-nuv__menu" href="#">
+          <div class="user-nuv__menu" href="#">
             <img class="user-nuv__menu-img" src="images/icon/menu.svg" alt="menu img">
-          </a>
+          </вшм>
         </div>
       </div>
 
     </div>
 
-  </head>
+  </header>
 
-  <main>
-    <section class="slider">
+  <!-- <!-- <main> -->
+    <!-- <section class="slider">
       <div class="wrapper">
         <div class="slider__bg">
           <div class="conteiner">
@@ -479,86 +482,88 @@
       </div>
     </section>
     <section class="desing">
-      <div class="conteiner">
-        <h2 class="desing__title">
-          New Design
-        </h2>
-        <div class="desing__buttons">
-          <button class="desing__btn mixitup-control-active all" data-filter="all">All</button>
-          <button class="desing__btn" data-filter=".category-a">Furnitures</button>
-          <button class="desing__btn" data-filter=".category-b">Chairs</button>
-          <button class="desing__btn" data-filter=".category-c">Lighting</button>
-          <button class="desing__btn" data-filter=".category-d">Decor</button>
+      <div class="wrapper">
+        <div class="conteiner">
+          <h2 class="desing__title">
+            New Design
+          </h2>
+          <div class="desing__buttons">
+            <button class="desing__btn">All</button>
+            <button class="desing__btn">Furnitures</button>
+            <button class="desing__btn">Chairs</button>
+            <button class="desing__btn">Lighting</button>
+            <button class="desing__btn">Decor</button>
+          </div>
+          <div class="desing__items">
+            <a href="#" class="desing__item mix category-a category-c">
+              <div class="desing__item-info">
+                <h5 class="desing__item-title">
+                  Beat Flat Pendant
+                  Black
+                </h5>
+                <p class="desing__item-subtitle">
+                  Classic
+                </p>
+              </div>
+            </a>
+            <a href="#" class="desing__item mix category-b">
+              <div class="desing__item-info">
+                <h5 class="desing__item-title">
+                  Lampe Sur Pieds
+                  Bamboo
+                </h5>
+                <p class="desing__item-subtitle">
+                  Classic
+                </p>
+              </div>
+            </a>
+            <a href="#"class="desing__item mix category-c category-b">
+              <div class="desing__item-info">
+                <h5 class="desing__item-title">
+                  Rattan Rocking
+                  Chair
+                </h5>
+                <p class="desing__item-subtitle">
+                  Classic
+                </p>
+              </div>
+            </a>
+            <a href="#" class="desing__item mix category-c">
+              <div class="desing__item-info">
+                <h5 class="desing__item-title">
+                  Rattan Rocking
+                  Chair
+                </h5>
+                <p class="desing__item-subtitle">
+                  Classic
+                </p>
+              </div>
+            </a>
+            <a href="#" class="desing__item mix category-d">
+              <div class="desing__item-info">
+                <h5 class="desing__item-title">
+                  Rattan Rocking
+                  Chair
+                </h5>
+                <p class="desing__item-subtitle">
+                  Classic
+                </p>
+              </div>
+            </a>
+            <a href="#" class="desing__item mix category-d">
+              <div class="desing__item-info">
+                <h5 class="desing__item-title">
+                  Lampe Sur Pieds
+                  Bamboo
+                </h5>
+                <p class="desing__item-subtitle">
+                  Classic
+                </p>
+              </div>
+            </a>
+          </div>
+  
         </div>
-        <div class="desing__items">
-          <a href="#" class="desing__item mix category-a category-c">
-            <div class="desing__item-info">
-              <h5 class="desing__item-title">
-                Beat Flat Pendant
-                Black
-              </h5>
-              <p class="desing__item-subtitle">
-                Classic
-              </p>
-            </div>
-          </a>
-          <a href="#" class="desing__item mix category-b">
-            <div class="desing__item-info">
-              <h5 class="desing__item-title">
-                Lampe Sur Pieds
-                Bamboo
-              </h5>
-              <p class="desing__item-subtitle">
-                Classic
-              </p>
-            </div>
-          </a>
-          <a href="#"class="desing__item mix category-c category-b">
-            <div class="desing__item-info">
-              <h5 class="desing__item-title">
-                Rattan Rocking
-                Chair
-              </h5>
-              <p class="desing__item-subtitle">
-                Classic
-              </p>
-            </div>
-          </a>
-          <a href="#" class="desing__item mix category-c">
-            <div class="desing__item-info">
-              <h5 class="desing__item-title">
-                Rattan Rocking
-                Chair
-              </h5>
-              <p class="desing__item-subtitle">
-                Classic
-              </p>
-            </div>
-          </a>
-          <a href="#" class="desing__item mix category-d">
-            <div class="desing__item-info">
-              <h5 class="desing__item-title">
-                Rattan Rocking
-                Chair
-              </h5>
-              <p class="desing__item-subtitle">
-                Classic
-              </p>
-            </div>
-          </a>
-          <a href="#" class="desing__item mix category-d">
-            <div class="desing__item-info">
-              <h5 class="desing__item-title">
-                Lampe Sur Pieds
-                Bamboo
-              </h5>
-              <p class="desing__item-subtitle">
-                Classic
-              </p>
-            </div>
-          </a>
-        </div>
-
       </div>
       <div class="desing-video">
         <a class="desing-video__link" href="https://youtu.be/Vz3Z6qccMVU" data-fancybox="video-gallery">
@@ -639,21 +644,22 @@
       </div>
     </section>
     <div class="partners">
-      <div class="conteiner">
-        <div class="partners__inner">
-          <img class="partners__img" src="images/partners/1.png" alt="img partners">
-          <img class="partners__img" src="images/partners/2.png" alt="img partners">
-          <img class="partners__img" src="images/partners/3.png" alt="img partners">
-          <img class="partners__img" src="images/partners/4.png" alt="img partners">
-          <img class="partners__img" src="images/partners/5.png" alt="img partners">
+      <div class="wrapper">
+        <div class="conteiner">
+          <div class="partners__inner">
+            <img class="partners__img" src="images/partners/1.png" alt="img partners">
+            <img class="partners__img" src="images/partners/2.png" alt="img partners">
+            <img class="partners__img" src="images/partners/3.png" alt="img partners">
+            <img class="partners__img" src="images/partners/4.png" alt="img partners">
+            <img class="partners__img" src="images/partners/5.png" alt="img partners">
+          </div>
         </div>
       </div>
     </div>
-  </main>
+  </main> --> -->
 
 
-
-  <footer class="footer">
+<!-- <footer class="footer">
     <div class="conteiner">
       <div class="footer-top">
         <div class="footer-top__items">
@@ -753,7 +759,7 @@
       </div>
     </div>
 
-  </footer>
+  </footer> --> -->
 
   <script src="js/main.min.js"></script>
 </body>
