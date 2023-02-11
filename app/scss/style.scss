@@ -304,9 +304,9 @@
     background-image: url('../images/slider/bg.png');
     background-repeat: no-repeat;
     background-position: center center;
-    width: 1770px;
+    max-width: 1770px;
     height: 820px;
-    margin-top: 145px;
+    margin-top: 120px;
 
   }
 
@@ -430,16 +430,16 @@
     background-color: #fef7f0;
     display: grid;
     grid-auto-flow: column;
-    width: 1770px;
+    max-width: 1770px;
+   
   }
-
-  &__item {
-    grid-template-columns: repeat(3, 1fr);
+  &__item{
+    margin-left: 20px;
   }
 
   &__item-clock {
     margin: 35px 0;
-    width: 275px;
+    max-width: 275px;
     margin-left: 150px;
     padding-left: 75px;
     position: relative;
@@ -636,7 +636,8 @@
   &__item {
     background-color: #feefe2;
     height: 390px;
-    width: 870px;
+    max-width: 870px;
+    padding-right: 30px;
   }
 
   &__info-left {
