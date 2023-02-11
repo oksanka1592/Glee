@@ -1,4 +1,8 @@
 $ (function(){
+  $('.footer-top__title-spoiler').on('click', function () {
+    $(this).toggleClass('active').next().slideToggle(300);
+
+  });
 
   $('.header__burger').on('click', function (){
     $('.header__burger,.header__menu').toggleClass('active');
