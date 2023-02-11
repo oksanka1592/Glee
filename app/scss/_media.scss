@@ -84,7 +84,7 @@
     &__inner {
       flex-wrap: wrap;
       justify-content: start;
-      // height: 160px;
+    
     }
 
     &__menu {
@@ -272,7 +272,20 @@
 }
 
 @media (max-width: 992px) {
+  .header{
+    height: 100px;
+    &__inner{
+      height: 100px;
+            padding: 26px 10px 45px 0;
+    }
+  }
+  .slider{
+    &__bg{
+      margin-top: 81px;
+    }
+  }
   .info {
+    margin-bottom: 50px;
     &__item-clock {
       padding-left: 0;
       margin-right: 25px;
@@ -303,6 +316,7 @@
   }
 
   .promo {
+    margin-bottom: 50px;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 30px;
 
@@ -330,7 +344,15 @@
   }
 
   .desing-video {
-    margin-bottom: 50px;
+    margin-bottom: 90px;
+  }
+
+  .blog-top {
+    margin-right: 15px;
+    &__title {
+      padding-top: 30px;
+      padding-left: 20px;
+    }
   }
 
   .blog {
@@ -364,12 +386,21 @@
       object-fit: cover;
 
     }
+    &__item-title{
+      line-height: 38px;
+    }
 
     &__item-box {
       margin-top: 30px;
-      max-width: 500px;
+      max-width: auto;
       width: 100%;
+      margin-right: 20px;
     }
+  }
+
+  .partners__inner {
+
+    padding: 10px 20px 10px 20px;
   }
 
   .footer-top {
@@ -527,7 +558,7 @@
       border-top: 1px solid #ebecec;
       border-bottom: 1px solid #ebecec;
       margin: 0;
-      margin-left: -18px;
+      margin-left: 0px;
     }
 
     &__item-pay {
@@ -599,6 +630,15 @@
       margin-bottom: 30px;
     }
 
+    &__buttons {
+      margin-bottom: 30px;
+
+    }
+
+    &__btn {
+      padding-bottom: 10px;
+    }
+
   }
 
   .blog {
@@ -625,6 +665,9 @@
 
   .blog-top {
     margin-left: 30px;
+  }
+  .footer-bottom{
+    justify-content: space-around;
   }
 }
 
@@ -807,7 +850,9 @@
   }
 
   .footer-bottom {
+    
     padding: 10px 10px;
+
     &__link {
       margin: 0px 10px;
       line-height: 20px;
