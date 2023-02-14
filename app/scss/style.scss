@@ -1003,7 +1003,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 70px 85px 70px 50px;
+    padding: 65px 85px 65px 50px;
 
   }
 
@@ -1051,7 +1051,7 @@
 
   &__inner {
     display: flex;
- 
+
   }
 
   &__img {
@@ -1134,7 +1134,7 @@
 
   &__item-img {
     margin-right: 20px;
-    
+
   }
 
   &__item-title {
@@ -1322,10 +1322,12 @@
     grid-row-gap: 100px;
     /*по высоте*/
   }
-  &__item{
+
+  &__item {
     position: relative;
-    &:hover{
-      .team__box{
+
+    &:hover {
+      .team__box {
         opacity: 1;
         transition: all 0.3s;
 
@@ -1333,13 +1335,13 @@
     }
 
   }
-  
+
   &__img {
     width: 370px;
     height: 320px;
     object-fit: cover
   }
-  
+
   &__box {
     position: absolute;
     display: flex;
@@ -1352,7 +1354,7 @@
     opacity: 0;
     transition: all 0.3s;
   }
-   
+
 
   &__box-person {
     padding-top: 28px;
@@ -1398,9 +1400,113 @@
   &__social-google {
     background-image: url('../images/icon/google.svg');
   }
+}
+
+.login {
+  margin: 115px auto 120px;
+  max-width: 475px;
+
+  &__bottom {
+    text-align: center;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+  }
+
+  &__text-link {
+    @extend %rubik-400;
+    font-size: 14px;
+    color: #436372;
+  }
+
+  &__btn {
+    background-color: #fff;
+    border: 2px solid #a3bbc8;
+    height: 60px;
+    @extend %rubik-500;
+    font-size: 18px;
+    color: #243f4d;
+    vertical-align: center;
+    width: 100%;
+  }
+
+
 
 }
 
+.form {
+  &__login {
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  &__email,
+  &__password {
+    display: block;
+    border: 1px solid #f6f6f6;
+    width: 100%;
+    max-width: 475px;
+    height: 55px;
+    margin-bottom: 10px;
+
+  }
+
+  &__label {
+    @extend %rubik-400;
+    font-size: 14px;
+    color: #436372;
+    line-height: 40px;
+
+
+  }
+
+  &__btn {
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    background-color: #a3bbc8;
+    text-align: center;
+    vertical-align: center;
+    height: 60px;
+    margin-bottom: 35px;
+  }
+
+  &__btn-link {
+    color: #fff;
+    @extend %rubik-500;
+    font-size: 18px;
+
+  }
+
+  &__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @extend %rubik-400;
+    font-size: 14px;
+    color: #436372;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f6f6f6;
+    margin-bottom: 30px;
+  }
+
+  &__bottom-input {
+    border: none;
+    background-color: #ebebeb;
+    margin-right: 7px;
+  }
+
+  &__bottom-link {
+    padding-top: 3px;
+    margin-left: 15px;
+    @extend %rubik-400;
+    font-size: 14px;
+    color: #436372;
+  }
+}
 
 
 
