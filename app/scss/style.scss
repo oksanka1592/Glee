@@ -2908,15 +2908,15 @@
       object-fit: cover;
     }
   }
+  .slick-list {
+    height: 530px;
+  }
 }
 
 .slick-slide slick-current slick-active {
   width: auto;
 }
 
-.slick-list {
-  height: 530px;
-}
 
 .product-tabs {
   margin-bottom: 110px;
